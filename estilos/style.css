@@ -3,11 +3,11 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 header {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     gap: 10px;
     margin: auto;
@@ -18,13 +18,14 @@ header > a {
 }
 .menu {
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.141);
-    padding: 50px 10px;
-    
+    width: 100vw;
+    text-align: center;    
 }
 .menu:hover {
     color: whitesmoke;
     background-color: #0c492d;
     cursor: pointer;
+    font-weight: bold;
 }
 .cabeçalho {
     display: flex;
@@ -52,14 +53,117 @@ a {
 }
 li {
     padding: 5px 15px;
-    border: 1px solid whitesmoke;
-    background-color:#0c492d;
-    text-align: left;
-    width: 170px;
+    border: 1px solid #0c492d;
+    background-color: whitesmoke;
+    text-align: center;
+    width: 100vw;
 }
 li > a {
-    color: whitesmoke;
+    color: #0c492d;
 }
 li > a:hover {
     font-weight: bold;
+}
+.fundo-hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.066);
+    width: 100vw;
+}
+.hero {
+    display: flex;
+    flex-direction: column;
+    width: 80vw;
+    border-top: 10px;
+    padding: 10px;
+    margin: auto;
+}
+.img-hero {
+    background-image: url(../imagens/fundo-hero.png);
+    background-size: cover;
+    background-position: center center;
+    width: 100vw;
+    height: 35vh;
+    border-bottom: 20px;
+    margin-top: 0;
+    overflow: hidden;
+}
+h3 {
+    text-align: center;
+    font-size: 2em;
+    font-variant: small-caps;
+    margin: 5px;
+}
+h4 {
+    text-align: center;
+    margin: 5px;
+    line-height: 1.2em;
+}
+.sobre {
+    display: flex;
+    flex-direction: column;
+}
+.sobre-mim {
+    margin: auto;
+    padding: 20px;
+    width: 80vw;
+    text-indent: 20px;
+}
+.foto {
+    background-image: url(../imagens/foto.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 35vh;
+}
+.areas {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin: 15px auto;
+}
+.area-nome {
+    margin: auto;
+    padding: 10px;
+    font-size: 1.2em;
+}
+.area {
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin: 15px auto;
+}
+#img-hof {
+    background-image: url(../imagens/img-hof.png);
+    background-size: cover;
+    background-position: center center;
+}
+#img-perio {
+    background-image: url(../imagens/img-perio.png);
+    background-size: cover;
+    background-position: center center;
+}
+#img-dent {
+    background-image: url(../imagens/img-dent.png);
+    background-size: cover;
+    background-position: center center;
+}
+#img-cirur {
+    background-image: url(../imagens/img-cirur.png);
+    background-size: cover;
+    background-position: center center;
+}
+#img-endo {
+    background-image: url(../imagens/img-endo.png);
+    background-size: cover;
+    background-position: center center;
+}
+#img-pt {
+    background-image: url(../imagens/img-pt.png);
+    background-size: cover;
+    background-position: center center;
 }

@@ -10,9 +10,7 @@
 </head>
 <body>
     <header>
-        <section id="menu" class="menu" onclick="abrirmenu()"><span class="material-symbols-outlined">
-            menu
-            </span></section>
+        
         <a href="index.html">
             <div class="cabeçalho">
                 <section class="logo"> <img src="imagens/logo.png" alt="logo" width="100px"></section>
@@ -21,18 +19,46 @@
                         <h1>Consultório Odontológico</h1>
                     </article>
                     <article><h2>Dr Sidnei Arruda Jr</h2></article>
+                </section>
             </div>
         </a>
-        </section>
+            <section id="menu" class="menu" onclick="abrirmenu()"><span class="material-symbols-outlined">
+                menu
+                </span></section>
     </header>
     <nav>
         <ul id="nav" class="nav">
             <li><a href="serviços.html">Áreas de Atendimento</a></li>
             <li><a href="galeria.html">Galeria</a></li>
             <li><a href="agenda.html">Agendamentos</a></li>
-            <li><a href="localizaçao.html">Localização</a></li>
+            <li><a href="localizaçao.html">Localização e contato</a></li>
         </ul>
     </nav>
+    <main>
+        <section class="fundo-hero">
+            <article class="hero">
+                <h3>Sorria com confiança</h3>
+                <hr>
+                <h4>Um sorrido saudável é a chave para uma  uma autoestima elevada.</h4>
+            </article>
+            <article class="img-hero"></article>
+        </section>
+        <section class="sobre">
+            <article class="sobre-mim">
+                <h4 style="margin: 10px;">Sobre Mim</h4>
+                <p>Olá, sou Sidnei Tadeu Arruda Junior, 32 anos, casado, cristão. Graduado em odontologia pela Universidade Paulista, Campus Sorocaba, no ano de 2022, e desde então venho fazendo cursos, principalmente na área de harmonização facial e tratamento de canal. Desde de minha formação, sempre prezo pela qualidade no atendimento, e no cuidado individual de cada paciente. Aqui temos um ambiente agradável para que você possa se sentir confortável.</p>
+            </article>
+            <article class="foto"></article>
+        </section>
+        <section class="areas">
+            <article  class="area-nome"><p>Harmonização Facial</p><div class="area" id="img-hof"></div></article>
+            <article  class="area-nome"><p>Periodontia</p><div class="area" id="img-perio"></div></article>
+            <article  class="area-nome"><p>Dentistica</p><div class="area" id="img-dent"></div></article>
+            <article  class="area-nome"><p>Cirurgia</p><div class="area" id="img-cirur"></div></article>
+            <article  class="area-nome"><p>Endodontia</p><div class="area" id="img-endo"></div></article>
+            <article  class="area-nome"><p>Préteses</p><div class="area" id="img-pt"></div></article>
+        </section>
+    </main>
     <script src="script.js"></script>
 </body>
 </html>
